@@ -2,7 +2,7 @@
 const path = require('path');
 const express = require('express');
 const bodyparser = require('body-parser');
-const rootdir = require('../03-finished/util/path');
+const rootdir = require('./util/path');
 
 const app = express();
 
